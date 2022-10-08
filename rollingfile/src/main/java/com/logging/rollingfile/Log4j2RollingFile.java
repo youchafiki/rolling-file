@@ -12,6 +12,7 @@ public class Log4j2RollingFile {
 				log.info("This is the " + i + " time I say 'Hello World'.");
 				log.warn("This is the " + i + " time I say 'warn World'.");
 				log.warn("This is the " + i + " time I say 'error World'.");
+				log.trace("This is the " + i + " time I say 'trace World'.");
 
 				Thread.sleep(100);
 			}
